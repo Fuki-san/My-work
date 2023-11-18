@@ -55,14 +55,14 @@
             <dl>
                 <dt>2020.04.01</dt>
                 <dd>xxxx大学入学aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
-                <dt>2022.03.31</dt>
-                <dd>xxxx大学休学aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dt>2022.03.31aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dt>
+                <dd>xxxx大学休学</dd>
                 <dt>2022.04.25</dt>
-                <dd>xxxx大学留学aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学留学</dd>
                 <dt>2023.04.01</dt>
-                <dd>xxxx大学復学aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学復学</dd>
                 <dt>2025.03.31</dt>
-                <dd>xxxx大学卒業aaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学卒業</dd>
             </dl>
         </section>
 

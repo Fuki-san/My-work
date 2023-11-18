@@ -118,16 +118,14 @@ a{
     margin-bottom: 20px;
 }
 #news dt{
-    /* width: 20%; 
-    width20%ありで、このborderなくして、padding 15px 15px 0 15pxでもいい感じに、dtの下にddが来る*/
+    width: 20%;
     border-bottom: solid 1px #c8c8c8;
-    padding: 15px;
 }
 
 #news dd{
     width: 80%;
     border-bottom: solid 1px #c8c8c8;
-    padding: 15px;
+    
 }
 
 /* contact */

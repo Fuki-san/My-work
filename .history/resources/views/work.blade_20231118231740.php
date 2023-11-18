@@ -10,7 +10,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contract">Contract</a></li>
                 {{-- //target="_blank"で新規ウィンドウ --}}
                 <li><a href="https://www.instagram.com/" target="_blank"><img class="icon" src="img/icon-instagram.png"></a>
                     {{-- ./img/icon... --}}</li>
@@ -54,15 +54,15 @@
             <h2 class="sec-title">News</h2>
             <dl>
                 <dt>2020.04.01</dt>
-                <dd>xxxx大学入学aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学入学</dd>
                 <dt>2022.03.31</dt>
-                <dd>xxxx大学休学aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学休学</dd>
                 <dt>2022.04.25</dt>
-                <dd>xxxx大学留学aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学留学</dd>
                 <dt>2023.04.01</dt>
-                <dd>xxxx大学復学aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学復学</dd>
                 <dt>2025.03.31</dt>
-                <dd>xxxx大学卒業aaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学卒業</dd>
             </dl>
         </section>
 
@@ -73,7 +73,7 @@
                     <dt><label for="name">Name</label></dt>
                     <dd><input type="text" name="name" id="name"></dd>
                     <dt><label for="email">E-mail</label></dt>
-                    <dd><input type="email" name="email" id="email"></dd>
+                    <dd><input type="text" name="email" id="email"></dd>
                     <dt><label for="msg">MESSAGE</label></dt>
                     <dd>
                         <textarea name="msg" id="msg"></textarea>

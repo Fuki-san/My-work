@@ -62,7 +62,7 @@
                 <dt>2023.04.01</dt>
                 <dd>xxxx大学復学aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
                 <dt>2025.03.31</dt>
-                <dd>xxxx大学卒業aaaaaaaaaaaaaaaaaaaaaaaaaaaa</dd>
+                <dd>xxxx大学卒業</dd>
             </dl>
         </section>
 
