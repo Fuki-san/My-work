@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 0.9rem;
+    color: #24292e;
+}
+
+img{
+    /* //画面の大きさによって画像調整 */
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    padding: 0 4%;
+    margin: 0 auto 130px auto;
+    max-width: 960px;
+    font-size: 0.9rem;
+}
+
+.sec-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.site-title a{
+    display: block;
+}
+
+.site-title{
+    line-height: 1px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px;
+}
+
+#header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header li{
+    marg
+}
+
