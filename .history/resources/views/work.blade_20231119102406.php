@@ -1,8 +1,17 @@
-@extends('layouts.main')
+<!DOCTYPE html>
+<html lang="ja">
 
-@section('title', 'My work')
+<head>
+    <meta charset="utf-8">
+    <title>My Work - Portfolio</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-@section('content')
+<body>
     <header id="header">
         <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="My Work"></a></h1>
         <nav>
@@ -21,7 +30,6 @@
     </header>
 
     <main>
-        <main>
         <div id="mainvisual">
             <picture>
                 <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
@@ -92,7 +100,9 @@
     </main>
 
     <footer id="footer">
-        <p>&copy; 2023 My Work</p>
+        <p>&copy; 2020 My Work</p>
     </footer>
 
-@endsection
+</body>
+
+</html>

@@ -21,27 +21,23 @@
     </header>
 
     <main>
-        <main>
         <div id="mainvisual">
             <picture>
                 <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
-                <img src="img/mainvisual-pc.jpg" alt="テキストテキストテキスト">
+                <img src="img/mainvisual-pc.jpg">
             </picture>
         </div>
 
         <section id="about" class="wrapper">
             <h2 class="sec-title">About</h2>
             <ul>
-                <li>Xxxxx Ashley</li>
-                <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
-                <li>tel: 000-0000-0000</li>
-                <li>url: www.xxxxxx.jp</li>
-                <li>mail: xxx@xxxxxx.jp</li>
+                <li>舟塚風樹</li>
+                <li>岩手県八幡平</li>
+                <li>000-0000-0000</li>
+                <li>url: www.xxxx.jp</li>
+                <li>mail: xxx@xxxx.jp</li>
             </ul>
-            <p>
-                プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            <p>プロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキスト
             </p>
         </section>
 

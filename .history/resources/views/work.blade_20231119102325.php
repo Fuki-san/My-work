@@ -91,8 +91,6 @@
         </section>
     </main>
 
-    <footer id="footer">
-        <p>&copy; 2023 My Work</p>
-    </footer>
+    
 
 @endsection

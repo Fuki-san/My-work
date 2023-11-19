@@ -4,58 +4,42 @@
 
 @section('content')
     <header id="header">
-        <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="My Work"></a></h1>
+        <h1 class="site-title"><a href="{{ route('work') }}"><img src="img/logo.svg"></a></h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#news">News</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム">
-                    </a>
-                </li>
+                {{-- //target="_blank"で新規ウィンドウ --}}
+                <li><a href="https://www.instagram.com/" target="_blank"><img class="icon" src="img/icon-instagram.png"></a>
+                    {{-- ./img/icon... --}}</li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <main>
         <div id="mainvisual">
             <picture>
                 <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
-                <img src="img/mainvisual-pc.jpg" alt="テキストテキストテキスト">
+                <img src="img/mainvisual-pc.jpg">
             </picture>
         </div>
 
         <section id="about" class="wrapper">
             <h2 class="sec-title">About</h2>
             <ul>
-                <li>Xxxxx Ashley</li>
-                <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
-                <li>tel: 000-0000-0000</li>
-                <li>url: www.xxxxxx.jp</li>
-                <li>mail: xxx@xxxxxx.jp</li>
+                <li>舟塚風樹</li>
+                <li>岩手県八幡平</li>
+                <li>000-0000-0000</li>
+                <li>url: www.xxxx.jp</li>
+                <li>mail: xxx@xxxx.jp</li>
             </ul>
-            <p>
-                プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            <p>プロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキスト
             </p>
         </section>
 
-        <section id="works" class="wrapper">
-            <h2 class="sec-title">Works</h2>
-            <ul>
-                <li><img src="img/works1.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works2.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works3.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works4.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works5.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works6.jpg" alt="テキストテキストテキスト"></li>
-            </ul>
-        </section>
+        
 
         <section id="news" class="wrapper">
             <h2 class="sec-title">News</h2>

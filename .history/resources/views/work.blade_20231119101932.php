@@ -4,56 +4,50 @@
 
 @section('content')
     <header id="header">
-        <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="My Work"></a></h1>
+        <h1 class="site-title"><a href="{{ route('work') }}"><img src="img/logo.svg"></a></h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#news">News</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム">
-                    </a>
-                </li>
+                {{-- //target="_blank"で新規ウィンドウ --}}
+                <li><a href="https://www.instagram.com/" target="_blank"><img class="icon" src="img/icon-instagram.png"></a>
+                    {{-- ./img/icon... --}}</li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <main>
         <div id="mainvisual">
             <picture>
                 <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
-                <img src="img/mainvisual-pc.jpg" alt="テキストテキストテキスト">
+                <img src="img/mainvisual-pc.jpg">
             </picture>
         </div>
 
         <section id="about" class="wrapper">
             <h2 class="sec-title">About</h2>
             <ul>
-                <li>Xxxxx Ashley</li>
-                <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
-                <li>tel: 000-0000-0000</li>
-                <li>url: www.xxxxxx.jp</li>
-                <li>mail: xxx@xxxxxx.jp</li>
+                <li>舟塚風樹</li>
+                <li>岩手県八幡平</li>
+                <li>000-0000-0000</li>
+                <li>url: www.xxxx.jp</li>
+                <li>mail: xxx@xxxx.jp</li>
             </ul>
-            <p>
-                プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            <p>プロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキストプロフィールテキストテキスト
             </p>
         </section>
 
         <section id="works" class="wrapper">
             <h2 class="sec-title">Works</h2>
             <ul>
-                <li><img src="img/works1.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works2.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works3.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works4.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works5.jpg" alt="テキストテキストテキスト"></li>
-                <li><img src="img/works6.jpg" alt="テキストテキストテキスト"></li>
+                <li><img src="img/works1.jpg"></li>
+                <li><img src="img/works2.jpg"></li>
+                <li><img src="img/works3.jpg"></li>
+                <li><img src="img/works4.jpg"></li>
+                <li><img src="img/works5.jpg"></li>
+                <li><img src="img/works6.jpg"></li>
             </ul>
         </section>
 
@@ -77,13 +71,13 @@
             <h2 class="sec-title">Contact</h2>
             <form action="#" method="post">
                 <dl>
-                    <dt><label for="name">NAME</label></dt>
-                    <dd><input type="text" id="name" name="your-name"></dd>
+                    <dt><label for="name">Name</label></dt>
+                    <dd><input type="text" name="name" id="name"></dd>
                     <dt><label for="email">E-mail</label></dt>
-                    <dd><input type="email" id="email" name="your-email"></dd>
-                    <dt><label for="message">MESSAGE</label></dt>
+                    <dd><input type="email" name="email" id="email"></dd>
+                    <dt><label for="msg">MESSAGE</label></dt>
                     <dd>
-                        <textarea id="message" name="your-message"></textarea>
+                        <textarea name="msg" id="msg"></textarea>
                     </dd>
                 </dl>
                 <div class="button"><input type="submit" value="送信"></div>

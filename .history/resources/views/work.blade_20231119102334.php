@@ -92,7 +92,7 @@
     </main>
 
     <footer id="footer">
-        <p>&copy; 2023 My Work</p>
+        <p>&copy; 2020 My Work</p>
     </footer>
 
 @endsection
